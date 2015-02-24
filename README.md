@@ -1,9 +1,12 @@
-analytics-php
+segmentio
 ==============
 
-[![Build Status](https://travis-ci.org/segmentio/analytics-php.png?branch=master)](https://travis-ci.org/segmentio/analytics-php)
 
-analytics-php is a php client for [Segment](https://segment.com)
+segmentio is a php client for [Segment](https://segment.com) using namespace setups for laravel5.
+
+when calling the wrapper add the following 
+
+use Vendor\Segmentio\Segmentio\Lib\Segment; and then \Segment::init("your_write_key"); along with \Segment::identify(); or \Segment::track(); wherever you need to insert into segmentio.
 
 ## Documentation
 
